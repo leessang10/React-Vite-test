@@ -1,0 +1,14 @@
+.box {
+    display: flex;
+    place-items: center;
+}
+
+.letter {
+    opacity: 1;
+    transition: opacity 0.5s;
+    font-size: 24px;
+}
+
+.fadeIn {
+    opacity: 0;
+}

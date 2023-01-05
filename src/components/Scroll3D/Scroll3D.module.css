@@ -1,0 +1,10 @@
+.scroll-container {
+    perspective: 1000px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.scroll-item {
+    transform: rotateY(45deg);
+    display: inline-block;
+}

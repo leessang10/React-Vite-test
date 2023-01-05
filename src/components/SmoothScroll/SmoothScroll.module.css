@@ -1,0 +1,14 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scroll-container {
+    perspective: 1000px;
+}
+
+.scroll-item {
+    transform: rotateY(45deg);
+}
